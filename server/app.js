@@ -43,6 +43,4 @@ app.get('/apps', (req, res) => {
     res.status(200).json(updatedList);
 });
 
-app.listen(8000, () => {
-    console.log('Server started on PORT 8000');
-  });
+module.exports = app;
